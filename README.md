@@ -1,9 +1,64 @@
-# React + Vite
+# Edutech Course Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack EdTech course directory platform built using React.js, Redux Toolkit, Tailwind CSS, Node.js, Express.js, and MongoDB Atlas.
 
-Currently, two official plugins are available:
+This application allows users to explore courses, search with debouncing, filter by categories, sort courses, view detailed course information, and manage a cart system — all with a responsive and clean UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# Edutech-" 
+---
+
+## 🚀 Live Demo
+
+### Frontend
+https://edutech-chi-inky.vercel.app
+
+### Backend API
+https://edutech-backend-1-z9lt.onrender.com
+
+---
+
+## 📌 Features
+
+### Frontend Features
+- Responsive UI using Tailwind CSS
+- Course listing page
+- Infinite scrolling
+- Debounced search functionality
+- Category filtering
+- Sorting by course name and rating
+- Course details page
+- Add to cart / Remove from cart
+- Redux Toolkit state management
+- Loading and empty states
+- Modern UI design
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Redux Toolkit
+- Tailwind CSS
+- React Router DOM
+- Axios
+- React Intersection Observer
+
+### Deployment
+- Frontend: Vercel / Netlify
+
+---
+
+## 📂 Project Structure
+
+### Frontend Structure
+
+```bash
+src/
+│
+├── api/
+├── components/
+├── hooks/
+├── pages/
+├── redux/
+├── routes/
+└── App.jsx
