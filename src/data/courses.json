@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "React JS Complete Bootcamp",
+    "instructor": "John Doe",
+    "category": "Web Development",
+    "level": "Beginner",
+    "duration": "8 Weeks",
+    "rating": 4.8,
+    "students": 12500,
+    "price": 2999,
+    "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "description": "Learn React from scratch and build real-world applications.",
+    "tags": ["React", "JavaScript", "Frontend"],
+    "syllabus": [
+      "Introduction to React",
+      "Components",
+      "Props and State",
+      "Hooks",
+      "Redux Toolkit"
+    ]
+  }
+]
