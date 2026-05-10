@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const BASE_URL = "http://localhost:5000/api/courses"
+const BASE_URL = "https://edutech-backend-1-z9lt.onrender.com/api/courses"
 
 // GET ALL COURSES
 export const fetchCourses = async ({
